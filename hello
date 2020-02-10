@@ -1,0 +1,20 @@
+n1 = int(input("enter the number"))
+n2 = int(input("enter the number"))
+print("select the method")
+print("A = addition   S= subtract  D = division M = multiplication  Mo = modulus")
+calc = input()
+
+if calc == 'a' or calc == 'A':
+    print(n1+n2)
+
+if calc == 's' or calc == 'S':
+    print(n1-n2)
+
+if calc == 'm' or calc == 'M':
+    print(n1 * n2)
+
+if calc == 'd' or calc == 'D':
+    print(n1 / n2)
+
+if calc == 'md' or calc == 'MD':
+    print(n1 % n2)
